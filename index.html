@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodieApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="topbar">
+      <div class="topbar-left">
+        <span class="logo">🍔 FoodieApp</span>
+      </div>
+      <div class="topbar-center">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Cari restoran atau makanan..."
+        />
+      </div>
+      <div class="topbar-right">
+        <a href="#">Masuk</a>
+        <a href="#" class="btn-signup">Daftar</a>
+      </div>
+    </nav>
+
+    <section class="promo-banner">
+      <div class="banner-text">
+        <h2>Gratis Ongkir</h2>
+        <p>Untuk pesanan pertama Anda hari ini!</p>
+        <a href="#" class="banner-btn">Pesan Sekarang</a>
+      </div>
+      <div class="banner-visual">
+        <div class="food-graphic">🍕🍜🍣</div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="container">
+        <h2>Kategori</h2>
+        <div class="category-row">
+          <div class="category-item">
+            <span>🍜</span>
+            <p>Noodles</p>
+          </div>
+          <div class="category-item">
+            <span>🍣</span>
+            <p>Japanese</p>
+          </div>
+          <div class="category-item">
+            <span>🍕</span>
+            <p>Pizza</p>
+          </div>
+          <div class="category-item">
+            <span>🍗</span>
+            <p>Chicken</p>
+          </div>
+          <div class="category-item">
+            <span>🥗</span>
+            <p>Salad</p>
+          </div>
+          <div class="category-item">
+            <span>🍰</span>
+            <p>Dessert</p>
+          </div>
+          <div class="category-item">
+            <span>🧃</span>
+            <p>Drinks</p>
+          </div>
+          <div class="category-item">
+            <span>🌮</span>
+            <p>Mexican</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="restaurants">
+      <div class="container">
+        <h2>Restoran Populer</h2>
+        <div class="restaurant-grid">
+          <div class="review-form">
+            <h3>Tulis Ulasan</h3>
+            <input type="text" id="nama-reviewer" placeholder="Nama kamu..." />
+            <input
+              type="text"
+              id="isi-ulasan"
+              placeholder="Ceritakan pengalamanmu memesan di FoodieApp..."
+            />
+            <button id="btn-kirim-ulasan">Kirim Ulasan</button>
+            <p id="pesan-ulasan"></p>
+          </div>
+
+          <div class="restaurant-card">
+            <div class="resto-image"></div>
+            <div class="resto-info">
+              <h3>Warung Nasi Pecel</h3>
+              <p class="resto-meta">⭐ 4.8 · 15–25 menit · Gratis Ongkir</p>
+              <p class="resto-tags">Nasi · Sayur · Tradisional</p>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <div class="resto-image"></div>
+            <div class="resto-info">
+              <h3>Sushi Hana</h3>
+              <p class="resto-meta">⭐ 4.7 · 20–35 menit · Min. Rp 50.000</p>
+              <p class="resto-tags">Japanese · Sushi · Ramen</p>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <div class="resto-image"></div>
+            <div class="resto-info">
+              <h3>Pizza Volcano</h3>
+              <p class="resto-meta">⭐ 4.5 · 30–45 menit · Gratis Ongkir</p>
+              <p class="resto-tags">Pizza · Pasta · Western</p>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <div class="resto-image"></div>
+            <div class="resto-info">
+              <h3>Mie Ayam Pak Budi</h3>
+              <p class="resto-meta">⭐ 4.9 · 10–20 menit · Min. Rp 25.000</p>
+              <p class="resto-tags">Mie · Ayam · Lokal</p>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <div class="resto-image"></div>
+            <div class="resto-info">
+              <h3>Burger Bros</h3>
+              <p class="resto-meta">⭐ 4.6 · 20–30 menit · Gratis Ongkir</p>
+              <p class="resto-tags">Burger · Snacks · Western</p>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <div class="resto-image"></div>
+            <div class="resto-info">
+              <h3>Padang Saiyo</h3>
+              <p class="resto-meta">⭐ 4.8 · 15–25 menit · Min. Rp 30.000</p>
+              <p class="resto-tags">Padang · Nasi · Tradisional</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2024 FoodieApp Indonesia</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
